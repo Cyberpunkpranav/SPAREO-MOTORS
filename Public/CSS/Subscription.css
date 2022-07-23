@@ -82,7 +82,7 @@
     padding: 0 10%;
       display:flex;
       justify-content: space-evenly;
-      background-image:url(./Public/images/Subscription_background.jpg);
+      background-image:url(../images/Subscription_background.jpg);
       background-position: center;
       background-size: 100%;
     margin-bottom:10%;
