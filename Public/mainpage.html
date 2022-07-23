@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Spareomotors.in">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/options.css">
+    <link rel="stylesheet"  href="CSS/mainpage.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" >
+    <link rel="icon" href="images/SMC logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Righteous&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <title>Spareo Motors.in</title>
+        <nav class="navbar navbar-expand-lg" id="navbar">
+           <div class="container">
+            <div id="navbar1">
+                <a class="navbar-brand" id="brand" href="mainpage.html"><img id="logo" src="images/SMC logo.png" alt="Spareo Motors Corporation"></img>SPAREO MOTORS</a>
+            </div>
+           
+<div id="navbar2">
+<button id="navbutton" class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</div>
+</button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">            
+            <ul id="navbar-nav" class="navbar-nav gap-lg-5 gp-md-3 gap-sm-1">                  
+            <li class="nav-item fs-5"><a id="nav-link" class="nav-link " href="mainpage.html">Profile</a></li>
+            <li class="nav-item fs-5"><a id="nav-link" class="nav-link " href="Subscription.html">Subscription</a></li>
+            <li class="nav-item fs-5"><a id="nav-link" class="nav-link " href="Services.html">Services</a></li>
+            <li class="nav-item fs-5"><a id="nav-link" class="nav-link3 " href="index.html">Log Out</a></li>
+            </ul> 
+        </div>
+    
+        
+    </div>
+</nav>
+<br/>
+
+
+    
+  <button class="btn btn-danger bg-opacity-10" onclick="logout()" id="logout">logout</button>
+
+        <div id="slide" class="carousel slide align-content-center" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active" id="slide1">
+              <a class="slideinfo fs-4 text-light text-center text-decoration-none" href="Help.html">
+              <p class="mt-5 fs-1">Stucked in the middle of the Journey?</p><button class="btn btn-primary btn-lg fs-3">Get Help</button></a> 
+            </div>
+             
+              <div class="carousel-item text-center" id="slide2">
+               <a class=" slideinfo fs-4 text-light text-center text-decoration-none" href="Contact_Us.html"><p class="mt-5 fs-1">We are always with you</p><button class="btn btn-danger btn-lg fs-3">Contact US</button></a>
+              </div>
+              <div class="carousel-item text-center" id="slide3">
+                 <a class="slideinfo fs-4 text-light text-center text-decoration-none" href="FAQ.html"><p class="mt-5 fs-1">Have quetions to ask?</p><button class="btn btn-info btn-lg fs-3">See FAQs</button></a>
+                </div>
+              </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+    <br>
+
+
+    
+    <div class="container-fluid" id="container">
+      <div class="row ">
+        <div class=" col jumbotron fs-1 text-center col-lg-7 col-sm-12 col-md-5 text-light " style="font-family:Cambria;"><br/><br/><div class="display-4">Profile Card</div><p class="lead fs-4">Get it yours so you can use it whenever you needed</p><button class="btn btn-danger btn-lg">Get Yours</button></div>
+        <div id="Profilecontainer" class="col-lg-4 col-md-6 col-sm-12">
+            <br><section id="Profileindex">
+                <img id="profilelogo" class="img-fluid" src="images/SMC logo.png" alt="Spareo Motors Corporation"></img>
+                    <div class="fs-3" id="Profileheading">SPAREO MOTORS</div>
+            </section>
+            <br/>
+                    <p id="ProfileUsername">Name :</p>
+                    <p id="Profileemail">Email :</p>
+                    <p id="Profilenumber">MobileNo :</p>
+                    <p id="ProfileSubscription">Subscription :</p>
+                </div>
+    </div>
+</div>
+    </div><br/><br/><hr>
+        <div class="container row col-12" id="container1">
+<div class="fs-3 text-center" id="heading1">Add your Car</div>
+<button class="fs-5 col-lg-3 col-md-6 col-12 btn btn-danger text-center" id="dropdownmenu"  onclick="dropdown()">Choose Company</button>      
+ <div class=" overflow-scroll container col-12 row mt-2" id="menu">
+<button class="container-fluid bg-black text-light bg-opacity-25" id="back" onclick="back()">back</button>
+<button class="company col-lg-4 col-md-6 col-sm-6"><img class="col-3" src="images/companyslogo/marutisuzuki.png"></img>MarutiSuzuki</button>
+<button class="company col-lg-4 col-md-6 col-sm-6"><img class="col-3" src="images/companyslogo/honda.png"></img>Honda</button>
+<button class="company col-lg-4 col-md-6 col-sm-6"><img class="col-3" src="images/companyslogo/tata.png"></img>Tata</button>
+<button disabled class="company col-4"><img  class="col-3" src="images/companyslogo/mahindra.png"></img>Mahindra</button>
+<button disabled class="company col-4"><img  class="col-3" src="images/companyslogo/hyundai.png"></img>Hyundai</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/toyota.png"></img>Toyota</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/volkswagen.png"></img>Volkswagen</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/nissan.png"></img>Nissan</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/ford.png"></img>Ford</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/skoda.png"></img>Skoda</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/mercedes.png"></img>Mercedes-Benz</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/mg.png"></img>MG</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/audi.png"></img>Audi</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/bmw.png"></img>BMW</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/kia.png"></img>Kia</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/mini.png"></img>Mini</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/maserati.png"></img>Maserati</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/mitsubishi.png"></img>Mitsubishi</p></button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/ferrari.png"></img>Ferrari</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/porsche.png"></img>Porsche</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/renault.png"></img>Renault</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/datsun.png"></img>Datsun</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/jeep.png"></img>Jeep</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/fiat.png"></img>Fiat</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/bentley.png"></img>Bentley</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/aston.png"></img>Aston Martini</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/jaguar.png"></img>Jaguar</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/land.png"></img>Land Rover</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/tesla.png"></img>Tesla</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/lamborghini.png"></img>lamborghini</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/lexus.png"></img>Lexus</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/rolls.png"></img>Rolls-Royace</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/bugatti.png"></img>Bugatti</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/volvo.png"></img>Volvo</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/isuzu.png"></img>Isuzu</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/dc.png"></img>DC</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/ssangyong.png"></img>Ssangyong</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/opel.png"></img>Opel</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/hindustanmotors.png"></img>Hindustan Motor</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/acura.png"></img>Acura</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/daewoo.png"></img>Daewoo</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/peugeot.png"></img>Peugeot</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/jayem.png"></img>Jayem</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/citroen.png"></img>Citroen</button>
+<button disabled class="company col-4"><img class="col-3" src="images/companyslogo/proton.png"></img>Proton</button>
+</div> 
+<div class="container overflow-scroll col-12 row mt-2" id="menu2">
+    <button class="container-fluid bg-black text-light bg-opacity-25" id="back" onclick="back2()">back</button>
+</div>
+            <select class="col-lg-3 col-md-6 col-sm-12 btn btn-warning fs-5 text-light"id="Fueltype">
+                <option disabled selected>Choose fuel type</option>
+                <option>Petrol</option>
+                <option>Diesel</option>
+                <option>Electric</option>
+                <option>CNG</option>
+            </select>
+            <button class="btn btn-outline-light btn-primary col-lg-3 col-md-6 col-12 fs-5" onclick="save()" id="carbutton">Save</button>
+        </div>
+</div>
+
+<br/>
+<div class="container fs-4 text-center" id="CarCollection" >
+    <p class="fs-2">My Cars</p>
+    <nav id="carnames" class="container bg-success bg-opacity-25 col-lg-3 col-md-4 col-sm-12">
+        No cars to show   
+    </nav>
+    <br/>
+</div>
+<br/>
+    <footer class="container-fluid" id="extras">
+        <br/>
+  
+        <p class="col-12 fs-3 text-center text-light">Our Social Contacts</p>
+        <div class="row col-12 justify-content-center justify-content-between" id="Social_Contacts">
+            <div class="col-3 text-center">
+                <a class="text-light text-decoration-none" href="https://www.instagram.com/spareo_motors/">
+                    <img class="img-fluid" src="images/instagram_icon.png"></img><br/>Instagram</a>
+            </div>
+
+            <div class="col-3 text-center">
+                <a class="text-light text-decoration-none" href="https://www.facebook.com/spareomotors">
+                    <img class="img-fluid" src="images/faceBOOK.png"></img><br/>Facebook</a>
+            </div>
+            <div class="col-3 text-center">
+                <a class="text-light text-decoration-none" href="https://www.youtube.com/channel/UChqsUK0RuiPPesc-WAWtckg">
+                    <img class="img-fluid" src="images/youtube_icon.png"></img><br/>YouTube</a>
+            </div>
+        </div>
+        <br/><br/>
+        <p class="col-12 fs-3 text-center text-light">Download our App</p>
+    
+        <div class="container-sm text-center">
+            <a class="col-6" href="https://play.google.com/store?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-in-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7cONSEM_kwid_43700065205026376_creativeid_535350509651_device_c&gclid=Cj0KCQjw6pOTBhCTARIsAHF23fJVUntoNqPzBVqqYvCYBRd3VQi4ros7BThdZSD7Rh5KTbiJhiZ6tq4aAloiEALw_wcB&gclsrc=aw.ds">
+                <button class="col-lg-3 col-md-4 btn btn-sm-3 btn-dark btn-outline-light fs-2" >
+                    <img src="images/PlayStore_icon.png"></a>Download</button>
+
+            <a class="col-6" href="https://www.apple.com/in/app-store/">
+               <button class="col-lg-3 col-md-4 btn btn-sm-3 btn-dark btn-outline-light fs-2">
+                <img src="images/AppStore_icon.png"></a>Download</button>
+
+        </div>
+        <br/>
+    </footer>
+      
+    <script type="text/javascript" src="JS/mainpage.js" ></script>
+    <script type="text/javascript"  src="JS/options.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+
+
+
+   
+   
+</body>
+</html>

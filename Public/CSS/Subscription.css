@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    background-color: rgb(250, 246, 246);
+    width: 100%;
+  }
+  
+  #header {
+    display: flex;
+    top:0;
+    justify-content: space-between;
+    height:8.7%;
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    align-items: center;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position:fixed;
+    color:black;
+  
+  }
+  #companyname h1 {
+    text-align:center;
+    align-items: center;
+    font-size: 2.1rem;
+    color:black;
+    letter-spacing:1px;
+    font-family: 'Righteous';
+  }
+  
+  #logo {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-left:-15px;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:10px;  
+    align-items: center;
+   
+  }
+  
+  #navbar li {
+    list-style: none;
+    padding: 0px 20px;
+    align-items: center;
+    
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Julius Sans One';
+    font-size: 16px;
+    font-weight: 900;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #navbar li a:hover {
+    transition: 0.3s;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #432183;
+  }
+  #navbar li #subscriptiontab{
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #432183;
+  }
+  #container{
+    height:400px;
+    padding: 0 10%;
+      display:flex;
+      justify-content: space-evenly;
+      background-image:url(./Public/images/Subscription_background.jpg);
+      background-position: center;
+      background-size: 100%;
+    margin-bottom:10%;
+  }
+  #Headings{
+      margin-top:10%;  
+      margin-left:2.5%; 
+  }
+#heading1{
+    font-size:6em;
+}
+#heading2{
+  font-family:arial;
+  letter-spacing: 2.5px;
+  font-weight: 100;
+  padding-top:2%;
+    font-size:2.5em;
+}
+#Platinium{
+    width:95%;
+    height:90%;
+    margin-left:2.5%;
+    box-shadow: 0px 0px 25px rgba(56, 55, 55, 0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    background-image: url(../images/platinium_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    }
+    #Platinium h1{
+        color:rgba(255, 250, 250, 0.534);
+        padding-left:1%;
+      
+    }
+    #Platinium p{
+        padding:3% 3%;
+        font-size:medium;
+    }
+    #Gold{
+    width:95%;
+    height:90%;
+    font-size:x-large;
+    margin-left:2.5%;
+    background-image: url(../images/Gold_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 0px 0px 25px rgba(56, 55, 55, 0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Gold h1{
+  color:rgba(255, 221, 177, 0.534);
+  padding-left:1%;
+}
+#Gold p{
+    padding:3% 3%;
+    font-size:medium;
+}
+#Silver{
+    width:95%;
+    height:90%;
+    font-size:x-large;
+    margin-left:2.5%;
+    box-shadow: 0px 0px 25px rgba(173, 172, 172, 0.5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0px 0px 25px rgba(56, 55, 55, 0.5);
+    background-image: url(../images/Silver_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Silver h1{
+  color:rgba(128, 128, 128, 0.534);
+  padding-left:1%;
+}
+#Silver p{
+  padding:3% 3%;
+  font-size:medium;
+}

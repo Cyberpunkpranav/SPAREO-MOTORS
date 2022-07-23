@@ -1,0 +1,32 @@
+#brand{
+  font-size:2rem;
+}
+#logo{
+  width:10%;
+  height:10%;
+}
+.navbar-brand{
+  font-family: "Righteous";
+  color:black;
+}
+.container{
+  background-color: rgb(232, 238, 238);
+  padding-top:5%;
+  padding-bottom:5%;
+}
+input{
+  font-size: 10px;
+  width:50%;
+}
+div p{
+  padding:0;
+  margin:0;
+}
+
+
+@media(max-width:480px){
+  #logo{
+    width:60px;
+    height:60px;
+  }
+}

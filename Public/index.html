@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Spareomotors.in">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Righteous&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/SMC logo.png">
+
+</head> 
+
+<body>
+    <title>SPAREO MOTORS-login</title>
+    <div id="container" class="container col-lg-7 col-md-12 col-sm-12 align-content-center align-self-center text-center mt-5 text-black">
+        <a class="navbar-brand" id="brand" href="mainpage.html"><img id="logo" src="images/SMC logo.png"></img>SPAREO MOTORS</a><br/><br/>
+        <p class="fs-4">Username</p>
+        <input class="text-center col-lg-4 fs-4"  name="Username" id="Usernamebox" type="text" label="Username" placeholder="Type Your Username" />
+        <br/><br/>  
+        <p class="fs-4">Password</p>
+        <input class="text-center col-lg-4 fs-4" id="Passwordbox" type="password" placeholder="Enter Your Password" />
+        <p id="useralert"></p><br/>
+        <button class="btn fs-4 btn-primary btn-outline-light col-lg-3 col-sm-5 col-md-5"onclick="Login()">Sign in</button><br /><br/>
+        <p class="fs-1 text-dark" id="LOG_IN">Create an Account</p>
+       <br/>
+        <button class="btn  btn-outline-dark col-lg-4 col-md-6 col-sm-6 fs-5" href="CreateAccount.html" onclick="newuser()">New to Spareo Motors</button>
+        <div id="signinwithgoogle">Sign in with Google</div>
+        <div id="signinwithemail">Sign in with Email</div>
+        <div id="signinwithfacebook">Sign in with Facebook</div>
+    </div>
+    <script src="JS/index.js"></script>
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+
+#menu{
+    display: none;
+align-items: baseline;
+    background-color: white;
+    border:1px solid black;
+    height:400px;
+    
+}
+
+#menu img{
+    width:50%;
+    height:50%;
+    object-fit: contain;
+    align-self:center;
+}
+#back{  
+    background-color:white ;
+}
+ #menu button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    font-size: 100%;
+    background-color: white;
+    border:none;
+    font-family: arial;
+}
+
+#menu2{
+    border:1px solid black;
+    display: none;
+    background-color: white;
+    align-items: center;
+    height:500px;
+}
+#menu2 button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    font-size:100%;
+    background-color: white;
+    border:none;
+    font-family: arial;
+}
+#menu2 img{
+    object-fit: contain;
+    width:50%;
+    height:50%;
+    align-self: center;  
+}

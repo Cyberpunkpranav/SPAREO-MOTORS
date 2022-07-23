@@ -1,0 +1,272 @@
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+#logo{
+  width:20%;
+  height:20%;
+}
+#brand{
+  font-size:200%;
+}
+
+#slide{
+
+  height:400px;
+  margin:0 auto;
+}
+#slide1{
+  background-image:url(/Public/images/slide1.jpg);
+  height:400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#slide2{
+  background-image:url(/Public/images/slide2.jpg);
+  height:400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#slide3{
+  background-image:url(/Public/images/slide3.jpg);
+  height:400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#navbar{
+box-shadow: 5px 2px 20px;
+}
+
+.navbar-brand{
+  font-family: 'Righteous';
+}
+
+
+#navbar-nav li{
+  font-family: arial;
+}
+#nav-link{
+  color:gray;
+}
+.nav-link3{
+  display:none;
+}
+
+#nav-link:hover{
+  border-radius: 4px;
+  transition: 0.3s;
+  background-color: #997ad3;
+  color:#ffffff;
+}
+#Profilecontainer {
+  margin-top:5%;
+  margin-bottom:5%;
+  background-image: url(/Public/images/cardbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+
+}
+#Profilecontainer p{
+  font-size: 100%;
+}
+
+#Profileindex{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+#profilelogo{
+  width:15%;
+}
+#Profileheading{
+  font-size: 2em;
+  color:white;
+  letter-spacing:1px;
+  font-family: 'Righteous';
+}
+
+#ProfileUsername{
+  margin-left:1%;
+  width:90%;
+  font-size:large;
+  background:transparent;  
+  outline: none;
+  padding-left:5%;
+  color:white;
+  font-family:arial;
+
+}
+
+#Profileemail{
+  margin-left:1%;
+  width:90%;
+  font-size:large;
+  background:transparent;
+  outline: none;
+  padding-left:5%;
+  color:white;
+  font-family:arial;
+}
+#Profilenumber{
+  margin-left:1%;
+  width:90%;
+  font-size:large;
+  background:transparent;
+  border:none;
+  outline: none;
+  padding-left:5%;
+  color:white;
+  font-family:arial;
+}
+#ProfileSubscription{
+  margin-left:1%;
+  background:transparent;
+  outline: none;
+  color:white;
+  font-family:arial;
+  padding-left:5%;
+}
+
+#container{
+  background-color: #997ad3;
+  padding:5%;
+}
+#container1{
+  margin:0 auto;
+  justify-content:space-evenly;
+  text-align: center;
+  align-items: center;
+}
+#Fueltype{
+  -webkit-appearance: none;
+}
+#extras {
+background-color:rgba(0, 0, 0, 0.87);
+}
+
+ #extras img{
+  width:20%;
+ }
+
+#navbarTogglerDemo01{
+text-align: center;
+}
+#CarCollection{
+  border: 1px solid gray;
+}
+#CarCollection p{
+  border-bottom:1px solid gray;
+}
+#carnames img{
+  width:70%;
+  height:70%;
+}
+
+@media(min-width:991px){
+ #navbar1{
+  margin-right:30%;
+ }
+}
+@media(max-width:991px){
+  .nav-link3{
+    display:contents;
+
+  } 
+
+ }
+
+
+ @media only screen and (max-width:540px){
+
+   #slide img{
+    height:250px;
+    width:400px;
+   }
+   #Profilecontainer{
+    height:300px;
+    width:500px;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   #Profilecontainer p{
+    font-size: 90%;
+   }
+   #extras img{
+    width: 40px;
+    height: 40px;
+   }
+   
+   .navbar-toggler .navbar-toggler-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5px;
+    margin:0 auto;
+  }
+  
+  #logout{
+    display:none;
+  }
+  }
+
+  @media(max-width:480px){
+    #brand{
+      font-size:150%;
+      margin:0px;
+      padding:0px;
+    }
+    #logo{
+      width:12%;
+      height:12%;
+    }
+    #navbutton{
+      padding:0px;
+    }
+    #slide{
+      background-color:coral;
+      height:250px;
+      margin:0 auto;
+    }
+    #slide1{
+      background-image: none;
+    }
+    #slide2{
+      background-image: none;
+    }
+    #slide3{
+      background-image: none;
+    }
+ 
+    #logout{
+      display:none;
+    }
+  
+   }
+  
+@media (max-width:356px){
+  #logo{
+    width:12%;
+    height:12%;
+    }
+    #brand{
+      margin:0px;
+      padding:0px;
+      font-size: 100%;
+      }
+  
+      #navbarTogglerDemo01 li a{
+        font-size:80%;
+      }
+      .navbar-toggler .navbar-toggler-icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 0.5px;
+}
+}

@@ -1,0 +1,296 @@
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+.container{
+  justify-content: space-between;
+}
+#logo{
+  width:15%;
+  height:15%;
+} 
+#brand{
+  font-size:200%;
+}
+#headline{
+  color:yellow;
+}
+#navbar{
+  background-color: #ffffff;
+box-shadow: 5px 2px 20px;
+justify-content: center;
+}
+.navbar-brand{
+  font-family: "righteous";
+}
+
+.nav-link3{
+  display:none;
+}
+
+#para {
+  margin:0 auto;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+
+#headline{
+  background-color: rgb(125, 64, 182);
+  margin:0 auto;  
+}
+#container {
+  background-color:white;
+  color:black;
+  border:1px solid black;
+  margin:0 auto;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#object3 {
+  color:rgba(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+#extras {
+background-color:rgba(0, 0, 0, 0.87);
+}
+#extras img{
+  width:20%;
+ }
+
+@media(max-width:991px){
+  .nav-link3{
+    display:contents;
+  } 
+  .navbar-brand{
+    margin:0 auto;
+  }
+ }
+
+@media(min-width:991px){
+ #navbar1{
+  margin-right:30%;
+ }
+}
+@media(max-width:991px){
+  .nav-link3{
+    display:contents;
+
+  } 
+
+ }
+
+
+ @media only screen and (max-width:540px){
+
+   #slide img{
+    height:250px;
+    width:400px;
+   }
+   #Profilecontainer{
+    height:300px;
+    width:500px;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   #Profilecontainer p{
+    font-size: 90%;
+   }
+   #extras img{
+    width: 40px;
+    height: 40px;
+   }
+   
+   .navbar-toggler .navbar-toggler-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5px;
+    margin:0 auto;
+  }
+  
+  #logout{
+    display:none;
+  }
+  }
+
+  @media(max-width:480px){
+    #brand{
+      font-size:150%;
+      margin:0px;
+      padding:0px;
+    }
+    #logo{
+      width:12%;
+      height:12%;
+    }
+    #navbutton{
+      padding:0px;
+    }
+
+    #logout{
+      display:none;
+    }
+  
+   }
+  
+
+@media only screen and (max-width:340px)and(min-width:290px){
+#navbutton{
+  margin:0;
+}
+#logo{
+  width:10%;
+  height:10%;
+  }
+  #brand{
+    font-size: 100%;
+    margin:0px;
+    padding:0px;
+
+    }
+  .navbar-toggler .navbar-toggler-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 0.5px;
+}
+#Profilecontainer{
+  width:100%;
+  height:220px;
+}
+#Profilecontainer p{
+  font-size: 68%;
+ }
+}
+#logout{
+  display:none;
+}
+
+@media (max-width:300px){
+  #logo{
+    width:15%;
+    height:15%;
+    }
+    #brand{
+      margin:0px;
+      padding:0px;
+      font-size: 190%;
+      }
+  
+      #navbarTogglerDemo01 li a{
+        font-size:80%;
+      }
+}@media(min-width:991px){
+  #navbar1{
+   margin-right:30%;
+  }
+ }
+ @media(max-width:991px){
+   .nav-link3{
+     display:contents;
+ 
+   } 
+ 
+  }
+ 
+ 
+  @media only screen and (max-width:540px){
+ 
+    #slide img{
+     height:250px;
+     width:400px;
+    }
+  
+    #extras img{
+     width: 40px;
+     height: 40px;
+    }
+    
+    .navbar-toggler .navbar-toggler-icon {
+     display: block;
+     width: 30px;
+     height: 30px;
+     border-radius: 0.5px;
+     margin:0 auto;
+   }
+   
+   #logout{
+     display:none;
+   }
+   }
+ 
+   @media(max-width:480px){
+     #brand{
+       font-size:150%;
+       margin:0px;
+       padding:0px;
+     }
+     #logo{
+       width:12%;
+       height:12%;
+     }
+     #navbutton{
+       padding:0px;
+     }
+
+     #logout{
+       display:none;
+     }
+   
+    }
+   
+ 
+ @media only screen and (max-width:340px)and(min-width:290px){
+ #navbutton{
+   margin:0;
+ }
+ #logo{
+   width:10%;
+   height:10%;
+   }
+   #brand{
+     font-size: 100%;
+     margin:0px;
+     padding:0px;
+ 
+     }
+   .navbar-toggler .navbar-toggler-icon {
+     display: block;
+     width: 20px;
+     height: 20px;
+     border-radius: 0.5px;
+ }
+ #Profilecontainer{
+   width:100%;
+   height:220px;
+ }
+ #Profilecontainer p{
+   font-size: 68%;
+  }
+ }
+ #logout{
+   display:none;
+ }
+ 
+ @media (max-width:300px){
+   #logo{
+     width:15%;
+     height:15%;
+     }
+     #brand{
+       margin:0px;
+       padding:0px;
+       font-size: 190%;
+       }
+   
+       #navbarTogglerDemo01 li a{
+         font-size:80%;
+       }
+ }

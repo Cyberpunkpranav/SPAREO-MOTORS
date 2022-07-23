@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    background-color: rgb(250, 246, 246);
+    width: 100%;
+  }
+  
+  #header {
+    display: flex;
+    top:0;
+    justify-content: space-between;
+    height:8.7%;
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    align-items: center;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position:fixed;
+    color:black;
+  
+  }
+  #companyname h1 {
+    text-align:center;
+    align-items: center;
+    font-size: 2.1rem;
+    color:black;
+    letter-spacing:1px;
+    font-family: 'Righteous';
+  }
+  
+  #logo {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-left:-15px;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:10px;  
+    align-items: center;
+   
+  }
+  
+  #navbar li {
+    list-style: none;
+    padding: 0px 20px;
+    align-items: center;
+    
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Julius Sans One';
+    font-size: 16px;
+    font-weight: 900;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #navbar li a:hover {
+    transition: 0.3s;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #432183;
+  }
+  #navbar li #contactustab{
+    transition: 0.3s;
+    color:white;
+    border-radius: 4px;
+    background-color: #432183;
+  }

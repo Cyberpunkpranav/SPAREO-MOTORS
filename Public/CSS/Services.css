@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(255, 255, 255);
+
+}
+
+#logo {
+  width:20%;
+  height:20%;
+}
+
+.navbar-brand{
+  font-family: 'Righteous';
+  margin-left:1%;
+}
+
+#navbar-nav li{
+  font-family: arial;
+  padding:5%;
+}
+#nav-link{
+  color:gray;
+}
+
+#nav-link:hover{
+  border-radius: 4px;
+  transition: 0.3s;
+  background-color: #997ad3;
+  color:#ffffff;
+}
+@media only screen and (max-width:540px){
+
+  #container2 .navbar-brand{
+    font-size:200%;
+  }
+  #navbutton{
+    margin:0 auto;
+  }
+   #slide img{
+    height:250px;
+    width:400px;
+   }
+
+   .navbar-toggler .navbar-toggler-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5px;
+    margin:0 auto;
+  }
+  }
+  
+  @media only screen and (max-width:330px){
+    #container2 .navbar-brand{
+      font-size: 150%;
+      margin:0 auto;
+    } 
+    #navbutton{
+      margin:0 auto;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+      display: block;
+      width: 25px;
+      height: 30px;
+      border-radius: 0.5px;
+  }
+  }
+
+
