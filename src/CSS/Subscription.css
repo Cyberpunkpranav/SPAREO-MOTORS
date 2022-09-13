@@ -82,7 +82,7 @@
     padding: 0 10%;
       display:flex;
       justify-content: space-evenly;
-      background-image:url(../images/Subscription_background.jpg);
+      background-image:url(/Public/images/Subscription_background.jpg);
       background-position: center;
       background-size: 100%;
     margin-bottom:10%;
@@ -108,7 +108,7 @@
     box-shadow: 0px 0px 25px rgba(56, 55, 55, 0.5);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:x-large;
-    background-image: url(../images/platinium_background.jpg);
+    background-image: url(/Public/images/platinium_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -127,7 +127,7 @@
     height:90%;
     font-size:x-large;
     margin-left:2.5%;
-    background-image: url(../images/Gold_background.png);
+    background-image: url(/Public/images/Gold_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -150,7 +150,7 @@
     box-shadow: 0px 0px 25px rgba(173, 172, 172, 0.5);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-shadow: 0px 0px 25px rgba(56, 55, 55, 0.5);
-    background-image: url(../images/Silver_background.png);
+    background-image: url(/Public/images/Silver_background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

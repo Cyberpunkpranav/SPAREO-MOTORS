@@ -11,28 +11,31 @@ body {
 #brand{
   font-size:200%;
 }
-
+#logout{
+  float:right;
+  margin-right:5%;
+}
 #slide{
 
   height:400px;
   margin:0 auto;
 }
 #slide1{
-  background-image:url(../images/slide1.jpg);
+  background-image:url(/Public/images/slide1.jpg);
   height:400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;
 }
 #slide2{
-  background-image:url(../images/slide2.jpg);
+  background-image:url(/Public/images/slide2.jpg);
   height:400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;
 }
 #slide3{
-  background-image:url(../images/slide3.jpg);
+  background-image:url(/Public/images/slide3.jpg);
   height:400px;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +69,7 @@ box-shadow: 5px 2px 20px;
 #Profilecontainer {
   margin-top:5%;
   margin-bottom:5%;
-  background-image: url(../images/cardbackground.jpg);
+  background-image: url(/Public/images/cardbackground.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;

@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(97, 14, 14);
+}
+textarea{
+  resize:none;
+  overflow: auto;
+}
+#logo {
+  width:20%;
+  height:20%;
+}
+
+.navbar-brand{
+  font-family: 'Righteous';
+  margin-left:1%;
+}
+
+#navbar-nav li{
+  font-family: arial;
+  padding:5%;
+}
+#nav-link{
+  color:gray;
+}
+
+#nav-link:hover{
+  border-radius: 4px;
+  transition: 0.3s;
+  background-color: #997ad3;
+  color:#ffffff;
+}
+
+#submitbtn:disabled{
+  padding:1% 1.5%;
+  border:2px solid rgb(173, 209, 191);
+  border-radius: 10px;
+  background-color:rgb(173, 209, 191);
+  color:white;
+  cursor:not-allowed;
+}
+#submitbtn{
+  color:black;
+  background-color: white;
+  cursor: pointer;
+  padding:1% 1.5%;
+  border:2px solid white;
+  border-radius: 10px;
+}
+#questionsection{
+  display:none;
+}
+#answerarea{
+  display:none;
+}
+
+@media only screen and (max-width:410px){
+  #navbutton{
+   margin:0 auto;
+  }
+  .navbar-brand{
+   margin: 0 auto;
+  }
+}
