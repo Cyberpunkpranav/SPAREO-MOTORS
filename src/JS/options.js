@@ -87,7 +87,7 @@ function modelselection(clickedcompany) {
 function showmodelslist() {
 
     for (let j = 0; j < modelsname.length; j++) {
-        menu2.innerHTML += `<button class="Models col-lg-4 col-md-6 col-sm-6" id=${modelsname[j]}><img class="mt-2" src="images/modelsimages/${modelsname[j]}.jpg"></img><br/><h2>${modelsname[j]}</h2></button>`;
+        menu2.innerHTML += `<button class="Models col-lg-4 col-md-6 col-sm-6" id=${modelsname[j]}><img class="mt-2" src="../src/images/modelsimages/${modelsname[j]}.jpg"></img><br/><h2>${modelsname[j]}</h2></button>`;
     }
     listingmodels();
 }

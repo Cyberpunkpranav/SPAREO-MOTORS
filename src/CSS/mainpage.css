@@ -21,7 +21,7 @@ body {
   margin:0 auto;
 }
 #slide1{
-  background-image:url(/Public/images/Slide1.png);
+  background-image:url(/src/images/Slide1.png);
   height:400px;
   background-repeat: no-repeat;
   background-position: center;
