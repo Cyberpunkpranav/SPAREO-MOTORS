@@ -1,88 +1,50 @@
-* {
-    padding: 0px;
-    margin: 0px;
-  }
-  
+
   body {
     background-color: rgb(250, 246, 246);
-    width: 100%;
+  }
+  #logo{
+    width:20%;
+    height:20%;
+  }
+  #brand{
+    font-size:200%;
+  }
+  #logout{
+    float:right;
+    margin-right:5%;
+  }
+  #navbar{
+    background-color: rgb(255, 255, 255);
+  box-shadow: 5px 2px 20px;
   }
   
-  #header {
-    display: flex;
-    top:0;
-    justify-content: space-between;
-    height:8.7%;
-    width: 95%;
-    margin-top: 2%;
-    margin-left: 2.5%;
-    align-items: center;
-    border: 2px solid black;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    position:fixed;
-    color:black;
-  
-  }
-  #companyname h1 {
-    text-align:center;
-    align-items: center;
-    font-size: 2.1rem;
-    color:black;
-    letter-spacing:1px;
+  .navbar-brand{
     font-family: 'Righteous';
   }
   
-  #logo {
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    margin-left:-15px;
+  
+  #navbar-nav li{
+    font-family: arial;
+  }
+  #nav-link{
+    color:gray;
+  }
+  .nav-link3{
+    display:none;
   }
   
-  #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:10px;  
-    align-items: center;
-   
-  }
-  
-  #navbar li {
-    list-style: none;
-    padding: 0px 20px;
-    align-items: center;
-    
-  }
-  
-  #navbar li a {
-    text-decoration: none;
-    color:black;
-    font-family: 'Julius Sans One';
-    font-size: 16px;
-    font-weight: 900;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  #navbar li a:hover {
+  #nav-link:hover{
+    border-radius: 4px;
     transition: 0.3s;
-    border-radius: 4px;
-    color: #ffffff;
-    background-color: #432183;
-  }
-  #navbar li #subscriptiontab{
-    border-radius: 4px;
-    color: #ffffff;
-    background-color: #432183;
+    background-color: #997ad3;
+    color:#ffffff;
   }
   #container{
     height:400px;
     padding: 0 10%;
       display:flex;
       justify-content: space-evenly;
-      background-image:url(/portfolio/);
+      background-image:url(/src/images/Subscriptionbackground.png);
       background-position: center;
       background-size: 100%;
     margin-bottom:10%;
@@ -108,7 +70,7 @@
     box-shadow: 0px 0px 25px rgba(56, 55, 55, 0.5);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:x-large;
-    background-image: url(/Public/images/Platiniumbackground.png);
+    background-image: url(/src/images/Platiniumbackground.png);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -127,7 +89,7 @@
     height:90%;
     font-size:x-large;
     margin-left:2.5%;
-    background-image: url(/Public/images/Goldbackground.png);
+    background-image: url(/src/images/Goldbackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -150,7 +112,7 @@
     box-shadow: 0px 0px 25px rgba(173, 172, 172, 0.5);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-shadow: 0px 0px 25px rgba(56, 55, 55, 0.5);
-    background-image: url(/Public/images/Silverbackground.png);
+    background-image: url(/src/images/Silverbackground.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,23 +1,64 @@
 body {
-  background-color: rgb(97, 14, 14);
+  background-color: rgb(255, 255, 255);
 }
+
+#logo{
+  width:20%;
+  height:20%;
+}
+#brand{
+  font-size:200%;
+}
+#logout{
+  float:right;
+  margin-right:5%;
+}
+#navbar{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 2px 20px;
+  }
+  
+  .navbar-brand{
+    font-family: 'Righteous';
+  }
+  
+  
+  #navbar-nav li{
+    font-family: arial;
+  }
+  #nav-link{
+    color:gray;
+  }
+  .nav-link3{
+    display:none;
+  }
+  #navbarTogglerDemo01{
+    text-align: center;
+    }
+  
+  #nav-link:hover{
+    border-radius: 4px;
+    transition: 0.3s;
+    background-color: #997ad3;
+    color:#ffffff;
+  }
 textarea{
   resize:none;
   overflow: auto;
 }
 #logo {
+
   width:20%;
   height:20%;
 }
 
 .navbar-brand{
   font-family: 'Righteous';
-  margin-left:1%;
 }
 
 #navbar-nav li{
   font-family: arial;
-  padding:5%;
+
 }
 #nav-link{
   color:gray;
@@ -53,11 +94,73 @@ textarea{
   display:none;
 }
 
-@media only screen and (max-width:410px){
-  #navbutton{
-   margin:0 auto;
+@media(min-width:991px){
+  #navbar1{
+   margin-right:30%;
   }
-  .navbar-brand{
-   margin: 0 auto;
+ }
+ @media(max-width:991px){
+   .nav-link3{
+     display:contents;
+ 
+   } 
+ 
   }
-}
+ 
+ 
+  @media only screen and (max-width:540px){
+ 
+
+    #extras img{
+     width: 40px;
+     height: 40px;
+    }
+    
+    .navbar-toggler .navbar-toggler-icon {
+     display: block;
+     width: 30px;
+     height: 30px;
+     border-radius: 0.5px;
+     margin:0 auto;
+   }
+   
+
+   }
+ 
+   @media(max-width:480px){
+     #brand{
+       font-size:150%;
+       margin:0px;
+       padding:0px;
+     }
+ 
+     #navbutton{
+       padding:0px;
+     }
+     #logout{
+       display:none;
+     }
+   
+    }
+   
+ @media (max-width:356px){
+   #logo{
+     width:12%;
+     height:12%;
+     }
+     #brand{
+       margin:0px;
+       padding:0px;
+       font-size: 100%;
+       }
+   
+       #navbarTogglerDemo01 li a{
+         font-size:80%;
+       }
+       .navbar-toggler .navbar-toggler-icon {
+         display: block;
+         width: 20px;
+         height: 20px;
+         border-radius: 0.5px;
+ }
+ }

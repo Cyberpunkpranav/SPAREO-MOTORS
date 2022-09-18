@@ -6,6 +6,7 @@
         <meta name="description" content="Motocorp.in">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../src/CSS/Subscription.css">
+        <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" >
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Righteous&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
@@ -14,20 +15,29 @@
     </head>
     <body>
         <title>Spareo Motors.in</title>
-    <section id="header"><a href="#"><img id="logo" src="./images/SMC logo.png" alt="Spareo Motors Corporation"></img></a>
-
-        <div id="companyname">
-            <h1>SPAREO MOTORS</h1>
-        </div>
-        <ul id="navbar">
-            <li><a href="mainpage.html">Profile</a></li>
-            <li><a id="subscriptiontab" href="Subscription.html">Subscription</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="Help.html">Help</a></li>
-            <li><a href="Contact_Us.html">ContactUs</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-        </ul>
-    </section>
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+             <div id="navbar1">
+                 <a class="navbar-brand" id="brand" href="mainpage.html"><img id="logo" src="../src/images/SMC logo.png" alt="Spareo Motors Corporation"></img>SPAREO MOTORS</a>
+             </div>
+            
+ <div id="navbar2">
+ <button id="navbutton" class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </div>
+ </button>
+             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">            
+             <ul id="navbar-nav" class="navbar-nav gap-lg-5 gp-md-3 gap-sm-1">                  
+             <li class="nav-item fs-5"><a id="nav-link" class="nav-link " href="mainpage.html">Profile</a></li>
+             <li class="nav-item fs-5"><a id="nav-link" class="nav-link " href="Subscription.html">Subscription</a></li>
+             <li class="nav-item fs-5"><a id="nav-link" class="nav-link " href="Services.html">Services</a></li>
+             <li class="nav-item fs-5"><a id="nav-link" class="nav-link3 " href="index.html">Log Out</a></li>
+             </ul> 
+         </div>
+     
+         
+     </div>
+ </nav><br/>
         <main id="Headings">
         <p id="heading1">Need a Vehice Service Assurance?</p>
         <p id="heading2">Try Our Subscription policies to get your vehice services covered on Monthly or Yearly basis.</p><br/><br/>
@@ -46,5 +56,7 @@
             </div>
         </div>
         <script src="../src/JS/Subscription.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="../bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

@@ -15,8 +15,7 @@ body {
   float:right;
   margin-right:5%;
 }
-#slide{
-
+#slide{ 
   height:400px;
   margin:0 auto;
 }
@@ -28,20 +27,21 @@ body {
   background-size:contain;
 }
 #slide2{
-  background-image:url(/Public/images/Slide2.png);
+  background-image:url(/src/images/Slide2.png);
   height:400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;
 }
 #slide3{
-  background-image:url(/Public/images/Slide3.png);
+  background-image:url(/src/images/Slide3.png);
   height:400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size:contain;
 }
 #navbar{
+  background-color: rgb(255, 255, 255);
 box-shadow: 5px 2px 20px;
 }
 
@@ -69,7 +69,7 @@ box-shadow: 5px 2px 20px;
 #Profilecontainer {
   margin-top:5%;
   margin-bottom:5%;
-  background-image: url(/Public/images/Cardbackground.png);
+  background-image: url(/src/images/Cardbackground.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
